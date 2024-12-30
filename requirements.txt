@@ -1,0 +1,6 @@
+crewai[tools]>=0.86.0,<1.0.0
+stripe>=11.0.0
+python-dotenv>=1.0.1
+requests>=2.31.0
+google-generativeai
+langchain-groq>=0.2.2

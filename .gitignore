@@ -1,0 +1,12 @@
+.env
+__pycache__/
+.venv/
+uv.lock
+src/websummarizeragent/__pycache__/
+package/
+db/
+crewAI-tools/
+lambda_function.py
+Dockerfile
+tests/
+README.md
