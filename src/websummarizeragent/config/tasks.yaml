@@ -1,0 +1,28 @@
+summarize_webpage_task:
+  description: >
+    Analyze and create a detailed summary of the content from the provided URL: {url}
+    
+    Query: {query}
+    
+    Create a comprehensive summary with exactly three sections in markdown format:
+    
+    1. Key Points (3-5 bullet points)
+    - List the most important takeaways
+    - Focus on main arguments or findings
+    - Include critical data points or statistics
+    
+    2. Detailed Analysis (2-3 paragraphs)
+    - Provide deeper context and background
+    - Explain relationships between key concepts
+    - Include relevant examples or case studies
+    
+    3. Implications & Conclusions (2-3 bullet points)
+    - Discuss potential impact or consequences
+    - Highlight recommendations if any
+    - Note limitations or areas for further consideration
+    
+    Format the output in proper markdown with headers, bullet points, and paragraphs.
+    Ensure the summary is both comprehensive and easy to read.
+  expected_output: >
+    A structured markdown summary with three distinct sections: Key Points, Detailed Analysis, and Implications & Conclusions.
+  agent: web_summarizer_agent 
